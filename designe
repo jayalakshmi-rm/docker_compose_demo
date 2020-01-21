@@ -1,0 +1,35 @@
+Scenario : Employees Registration Syetem.
+1: Add Employee to Employees Database
+2: Add to the payroll system
+3: Issue Employee Id & badge
+4: ADD him to the emil system
+5: Enable leave Managment system
+6: Issue Hardware.
+
+Containers :
+1: leave Managment
+2: payroll Managment
+3: Employee Details-> add email, Add employees
+4: Asset Managment -> Hardware issue, issue employee id
+5: Database System ->
+
+
+Conatiners for our application:-
+
+1: Employee Details-> (web services )(Nodejs,express)
+    Docker file(Manual)
+2: payroll Managment -> worker.(Express)
+    Docker file(Manual)
+3: Database System ->
+    Docker file(pulled from dockerhub)
+
+To run all of them:-(docker-compose)
+1: Create docker-compose.yml
+   a: Read all the docker files avalable
+   b: Run all the docker system avalable
+   c: perform inter system communication.
+
+To run Docker-compose
+1: Install docker compose(https://docs.docker.com/compose/install/#install-compose).
+2: create docker-compose.yml.
+3: run docker-compose.yml
